@@ -15,7 +15,8 @@
       <Tag name="ProductTitle" parent="ProductDescription" value="//span[@itemprop='name']"/>
       <Tag name="ProductInventory" parent="ProductWrap" value="//p[@class='note']"/>
       <Tag name="ProductPromo" parent="ProductWrap" value="//h2[@class='product-promo']"/>
-      <Tag name="ProductPrice" parent="ProductWrap" value="//div[@class='grpPricing']").SelectSingleNode("//div[@id='singleFinalPrice']"/>
+      <Tag name="ProductPricing" parent="ProductWrap" value="//div[@class='grpPricing']"/>
+      <Tag name="ProductPrice" parent="ProductPricing" value="//div[@id='singleFinalPrice']"/>
     </ComboPage>
   </NewEgg>
 </Config>
