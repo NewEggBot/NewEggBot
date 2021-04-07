@@ -1,0 +1,20 @@
+<Config>
+  <NewEgg>
+    <RegularPage>
+      <Tag name="productWrap" parent="" value="//div[@class='product-wrap']"/>
+      <Tag name="ItemName" parent="" value="//li[@class='is-current']"/>
+      <Tag name="ProductTitle" parent="ProductWrap" value="//h1[@class='product-title']"/>
+      <Tag name="ProductInventory" parent="ProductWrap" value="//div[@class='product-inventory']"/>
+      <Tag name="ProductPromo" parent="ProductWrap" value="//h2[@class='product-promo']"/>
+      <Tag name="ProductPrice" parent="ProductWrap" value="//div[@class='price-current']"/>
+    </RegularPage>
+    <ComboPage>
+      <Tag name="productWrap" parent="" value="//div[@class='grpArticle']"/>
+      <Tag name="ProductDescription" parent="" value="//div[contains(@class, 'grpDesc')]"/>
+      <Tag name="ProductTitle" parent="ProductDescription" value="//span[@itemprop='name']"/>
+      <Tag name="ProductInventory" parent="ProductWrap" value="//p[@class='note']"/>
+      <Tag name="ProductPromo" parent="ProductWrap" value="//h2[@class='product-promo']"/>
+      <Tag name="ProductPrice" parent="ProductWrap" value="//div[@class='grpPricing']").SelectSingleNode("//div[@id='singleFinalPrice']"/>
+    </ComboPage>
+  </NewEgg>
+</Config>
