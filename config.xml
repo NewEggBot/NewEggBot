@@ -19,4 +19,6 @@
       <Tag name="ProductPrice" parent="ProductPricing" value="//div[@id='singleFinalPrice']"/>
     </ComboPage>
   </WebSite>
+  <WebSite name='Amazon'>
+  </WebSite>
 </Config>
