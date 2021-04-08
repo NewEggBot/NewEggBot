@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Config>
-  <NewEgg>
+  <WebSite name='NewEgg'>
     <RegularPage>
       <Tag name="productWrap" parent="" value="//div[@class='product-wrap']"/>
       <Tag name="ItemName" parent="" value="//li[@class='is-current']"/>
@@ -18,5 +18,5 @@
       <Tag name="ProductPricing" parent="ProductWrap" value="//div[@class='grpPricing']"/>
       <Tag name="ProductPrice" parent="ProductPricing" value="//div[@id='singleFinalPrice']"/>
     </ComboPage>
-  </NewEgg>
+  </WebSite>
 </Config>
