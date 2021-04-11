@@ -10,8 +10,8 @@
       <Tag name="ProductPrice" parent="ProductWrap" value="//div[@class='price-current']"/>
     </Page>
     <Page type="ComboPage">
-      <Tag name="productWrap" parent="" value="//div[@class='grpArticle']"/>
-      <Tag name="ProductDescription" parent="" value="//div[contains(@class, 'grpDesc')]"/>
+      <Tag name="productWrap" parent="Page" value="//div[@class='grpArticle']"/>
+      <Tag name="ProductDescription" parent="Page" value="//div[contains(@class, 'grpDesc')]"/>
       <Tag name="ProductTitle" parent="ProductDescription" value="//span[@itemprop='name']"/>
       <Tag name="ProductInventory" parent="ProductWrap" value="//p[@class='note']"/>
       <Tag name="ProductPromo" parent="ProductWrap" value="//h2[@class='product-promo']"/>
