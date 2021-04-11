@@ -2,8 +2,8 @@
 <Config>
   <WebSite name='NewEgg'>
     <Page type="RegularPage">
-      <Tag name="productWrap" parent="" value="//div[@class='product-wrap']"/>
-      <Tag name="ItemName" parent="" value="//li[@class='is-current']"/>
+      <Tag name="productWrap" parent="Page" value="//div[@class='product-wrap']"/>
+      <Tag name="ItemName" parent="Page" value="//li[@class='is-current']"/>
       <Tag name="ProductTitle" parent="ProductWrap" value="//h1[@class='product-title']"/>
       <Tag name="ProductInventory" parent="ProductWrap" value="//div[@class='product-inventory']"/>
       <Tag name="ProductPromo" parent="ProductWrap" value="//h2[@class='product-promo']"/>
