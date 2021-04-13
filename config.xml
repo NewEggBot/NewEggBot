@@ -19,7 +19,6 @@
       <Tag name="ProductPrice" parent="ProductPricing" value="//div[@id='singleFinalPrice']"/>
     </Page>
     <Links>
-      <Link>https://www.newegg.com/global/il-en/msi-geforce-rtx-2060-rtx-2060-gaming-z-6g/p/N82E16814137379</Link>
       <Link>https://www.newegg.com/global/il-en/Product/ComboDealDetails?ItemList=Combo.4215881</Link>
       <Link>https://www.newegg.com/global/il-en/gigabyte-geforce-rtx-3060-ti-gv-n306teagle-8gd/p/N82E16814932379?Item=N82E16814932379&amp;quicklink=true</Link>
       <Link>https://www.newegg.com/global/il-en/gigabyte-geforce-rtx-3060-ti-gv-n306teagle-oc-8gd/p/N82E16814932378?Item=N82E16814932378&amp;quicklink=true</Link>
